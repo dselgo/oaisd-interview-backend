@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OaisdInterviewBackend</name>
+    </assembly>
+    <members>
+        <member name="M:OaisdInterviewBackend.Controllers.NumToTextController.ConvertToText(System.String)">
+            <summary>
+                Accepts a string containing a list of numbers delimited by commas and returns a list of 
+                these numbers with their text representations.
+            </summary>
+            <param name="input">The string input containing all of the numbers delimited by commas</param>
+            <response code="200">Returns an list containing each number and its text representation</response>
+            <response code="400">Returns a BadRequest response if the input string contains any of the following:
+                <br /> 1. Nothing (empty string)
+                <br /> 2. Characters other than numbers, commas, and negative sign (-)
+                <br /> 3. More than one negative sign per number
+                <br /> 4. Numbers outside of the long range: -9223372036854775807 to 9223372036854775807
+            </response>
+            <returns>An object containing each number and its text representation</returns>
+        </member>
+        <member name="T:OaisdInterviewBackend.Models.ViewModel">
+            <summary>
+            An object containing the number value and its text description
+            </summary>
+        </member>
+        <member name="P:OaisdInterviewBackend.Models.ViewModel.Num">
+            <example>1234</example>
+        </member>
+        <member name="P:OaisdInterviewBackend.Models.ViewModel.Text">
+            <example>one thousand two hundred thirty four</example>
+        </member>
+    </members>
+</doc>
