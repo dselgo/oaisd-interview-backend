@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OaisdInterviewBackendTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4553369de97368c43ba7648e6b3afd6de83f4a9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5fce8d3c97839024a63eb75ba2b6aef227c4fb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("OaisdInterviewBackendTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OaisdInterviewBackendTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
